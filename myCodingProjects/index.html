@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kyle's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <style>
+        /* Adds a gray background color and some padding to the footer */
+            .navbar-brand {
+                color: rgb(161, 39, 39);
+            }
+
+            .source-link {
+                color: rgb(161, 39, 39);
+            }
+
+            .bioName {
+                color: #f2f2f2;
+            }
+
+            .bioHeader {
+                color: #f2f2f2;
+            }
+
+            .bio-text {
+                color: #f2f2f2;
+            }
+
+            .media-right {
+                margin-top: 20px;
+            }
+
+            .bioSection {
+                margin-top: 70px;
+            }
+
+            .section {
+                padding-top: 30px;
+            }
+
+            footer {
+                background-color: #f2f2f2;
+                padding: 15px;
+                margin-top: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigational bar that is responsive to all devices, also squishes into a hamburger menu -->
+        <!-- picture of myself to the right of  -->
+    
+        <!-- projects section. Within this section:
+        add pictures
+        link coding projects to github
+        give a few words to describe project
+        -->
+        <header class="header">
+            <div class="container-fluid w-100">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid test">
+                        <a class="navbar-brand">KS</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <!-- home link is in the navbar-brand class -->
+                                    <li class="nav-item">
+                                        <a class="nav-link source-link" href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link source-link" href="#projects">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link source-link" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+
+            <div class="main bg-dark">
+                <section class="section" id="about">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-md-6 mt-5">
+                                <div class="bioSection">
+                                    <h1 class="bioName">Kyle Stubblefield</h1>      
+                                    <p class="bioHeader">Aspiring Junior Developer</p>
+                                    <!-- mobile needs to have picture before the Biography: description below -->
+                                    <p class="bio-text">Hello and welcome to my portfolio site! My name is Kyle Stubblefield! I'm a College Graduate with a Bachelors Degree in Computer Science. I am familiar with HTML, CSS, BootStrap 5, Java, and JavaScript. I also enjoy sports, the outdoors, and gaming.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <div class="media-right">
+                                        <img src="media/headshot-coding.jpg" class="media-object img-fluid img-responsive rounded" alt="img-headshot">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section class="section" id="projects">
+                    <div class="container mt-4">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="media/bloom.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bloom</h5>
+                                        <p class="card-text">Compatible with HTML,CSS,and BootStrap 5</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="bloomLive text-decoration-none">
+                                            <a href="https://github.com/Stubblefield888/bloom/blob/main/bloomOfficial/bloomFlexbox.html">Live Code</a>
+                                        </button>
+                                        <button class="bloomFiles text-decoration-none">
+                                            <link rel="stylesheet" href="">
+                                            <a href="https://github.com/Stubblefield888/bloom">GitHub Files</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="media/aditii.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Aditii</h5>
+                                        <p class="card-text">Compatible with HTML,CSS,and BootStrap 5</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="aditiiLive">
+                                            <a href="https://github.com/Stubblefield888/Aditii/commit/b289d31daedbda578512d30acbb66df4d5f69b15#diff-88a87c069a0648778d7aab5f0aa6b5264faad5c52f9378dfa34c6350f67f6830">Live Code</a>
+                                        </button>
+                                        <button class="aditiiFiles">
+                                            <a href="https://github.com/Stubblefield888/Aditii">GitHub Files</a>
+                                            
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="media/venedor.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Venedor</h5>
+                                        <p class="card-text">Compatible with HTML,CSS,and BootStrap 5</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="venedorLive">
+                                            <a href="https://github.com/Stubblefield888/Venedor/commit/16c000f55943fcd0ecbac9b23d87107d9a9862a4">Live Code</a>
+                                            
+                                        </button>
+                                        <button class="venedorFiles">
+                                            <a href="https://github.com/Stubblefield888/Venedor">GitHub Files</a>
+                                            
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+            <!-- start of the footer, Styling for footer at top of code under the [style] element -->
+            <footer class="footer container-fluid text-center">
+                <section class="section" id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <p>I am also reachable via email at <br> Kls88808@gmail.com.<br> Thank you for viewing my portfolio!</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a class="btn bottom-footer-btn" href="https://discord.com/channels/@me">
+                                    <i class="bi bi-discord"></i>    
+                                </a>
+                                <a class="btn bottom-footer-btn" href="https://www.linkedin.com/in/kyle-stubblefield-a14223246/">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a class="btn bottom-footer-btn" href="https://github.com/Stubblefield888">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="colophon">&copy;2022 Bootstrapped by Kyle.S.. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+    </html>
